@@ -41,15 +41,7 @@ Notes:
             in https://github.com/docgraph/VRDC_Client_PFE_IG_Journey_and_Marketview_Milestone2
             on 08apr2020
 
-Edit History:
-08apr2020 (susan.hutfless@careset.com): 
-    -add descriptions
-    -move info from inside macro to outside
-    -add automated logging
- 16apr2020 (susan.hutfless@careset.com)
- 	-add comments to make generic for all projects using GE_DaTscan as an example
- 20may2020 (susan.hutfless@careset.com)
- 	-make minor changes to catch up to SNY Vaccine test case;
+
 *------------------------------------------------------------------------------------------------------------------------
 COPYRIGHT: The DocGraph Journal 2020
 LICENSE:    Proprietary Software, not available for sale or licensing

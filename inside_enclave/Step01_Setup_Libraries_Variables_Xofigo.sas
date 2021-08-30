@@ -41,25 +41,6 @@ here is a good resource: https://www.lexjansen.com/wuss/2009/tut/TUT-Li.pdf
 
 ***************************************************************************
 
-Edit History:
-10apr2020 by susan.hutfless@careset.com (created)
-			in https://github.com/docgraph/VRDC_GE_MarketView_DaTscan_SPECT_Research
-			Spring 2020
-14apr2020 by susan.hutfless@careset.com: Edits with more instructions to modify 
-			based on GE_DaTscan as an example
-20may2020 by susan.hutfless@careset.com: Edits to match changes for SNY Vaccine
-06jul2020 by faith@careset.com: 
-			- Move running of includes.sas to the top.
-			- Reordered where things are defined/declared. In general, macro vars that change from project to project
-				are moved at the top.
-			- The following macro variables are now automatically filled versus manually populated by the SAS programmer:
-				= myInitials (line 239)
-				= myVRDCname  (line 238)
-				= settings_claim (lines 298-338)
-				= settings_cline (lines 298-338)
-				= These are additionally dependent on the value of debug_status
-					= program_stub (line 280)
-					= perm_lib (lines 267 and 275)
 						
 *------------------------------------------------------------------------------------------------------------------------
 COPYRIGHT: The DocGraph Journal 2020
@@ -72,9 +53,7 @@ LICENSE:    Proprietary Software, not available for sale or licensing
 	%include "&myfiles_root./dua_027654/includes/includes.sas"; 
 *========================================================================================================================;
 
-*make sure that step00 is run;
-%put length-----Faith will do this;
-%runquit;
+
 *========================================================================================================================;
 * Start: Setup mac vars for debug status, dataset names, settings and time period.
 * 
